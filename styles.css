@@ -36,4 +36,34 @@ body {
 .header {
   align-items: center; /* Centers Div */
   text-align: center; /*Centers Text */
+  margin-top: 20px;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s, transform 1s;
+}
+.fade-in-animation {
+  opacity: 1;
+  transform: translateY(0);
+}
+.main {
+  background-color: #000000;
+  margin: 0 20px 0px 20px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+.intro {
+  text-align: center;
+  align-items: center;
+}
+.img-width {
+  width: 45%;
+}
+.source {
+  font-style: italic;
+}
+.take {
+  text-decoration: line-through;
 }
