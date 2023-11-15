@@ -1,0 +1,39 @@
+/* styles.css */
+body {
+  background-color: #343a40; /* Dark background color */
+  color: #fff; /* Light text color */
+}
+
+.card {
+  margin-bottom: 20px;
+  border: 2px solid #a9b3be; /* Border color */
+  border-radius: 10px; /* Border radius for rounded corners */
+  transition: transform 0.3s; /* Add smooth transition effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Enlarge the card on hover */
+}
+
+.card-title {
+  color: #007bff; /* Card title color */
+}
+
+.card-text {
+  color: #ddd; /* Card text color */
+}
+
+.btn-primary {
+  background-color: #000102; /* Primary button color */
+  border: 2px solid #000000; /* Button border color */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  border: 2px solid #0056b3; /* Darker blue border on hover */
+}
+
+.header {
+  align-items: center; /* Centers Div */
+  text-align: center; /*Centers Text */
+}
